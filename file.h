@@ -7,7 +7,7 @@ void readDoubleFileByLine(char *fileName, double* data)
     // printf("%s\n", file);
     int bufferLength = 255;
     char buffer[bufferLength];
-    printf("%s\n", fileName);
+    // printf("%s\n", fileName);
     FILE *fptr;
     fptr = fopen(fileName, "r");
     if (fptr == NULL)
